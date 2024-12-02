@@ -23,9 +23,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-2)p)-#ziw%g$%&sg4hjh=sx(%zh8u%7mi!4yi=4^brm%-&v%3)"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["8000-kakilian-pp4-s6a6ijw1f0a.ws.codeinstitute-ide.net"]
+ALLOWED_HOSTS = [
+    "8000-kakilian-pp4-s6a6ijw1f0a.ws.codeinstitute-ide.net",
+    "https://github.com/kakilian/pp4.git",
+    "127.0.0.1",
+    "localhost",
+    ".codeinstitute-ide.net",
+    "heroku.com",
+]
 
 
 # Application definition
@@ -38,6 +45,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "appointments",
+    "about",
 ]
 
 MIDDLEWARE = [
