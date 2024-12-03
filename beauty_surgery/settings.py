@@ -34,6 +34,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "8000-kakilian-pp4-s6a6ijw1f0a.ws.codeinstitute-ide.net",
     "https://github.com/kakilian/pp4.git",
+    "https://git.heroku.com/beauty.git",
     "127.0.0.1",
     "localhost",
     ".codeinstitute-ide.net",
