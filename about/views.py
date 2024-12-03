@@ -1,6 +1,6 @@
+# about/views.py
 from django.shortcuts import render
-from django.http import HttpResponse
 
 
-def index(request):
-    return HttpResponse("Hello, Katarina!")
+def about_me(request):
+    return render(request, "about/about_me.html")
