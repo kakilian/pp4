@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "appointments",
     "about",
+    "beauty_surgery",
 ]
 
 MIDDLEWARE = [
