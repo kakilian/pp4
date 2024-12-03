@@ -42,7 +42,6 @@ ALLOWED_HOSTS = [
     "beauty-4c2686118954.herokuapp.com",
 ]
 
-
 # Application definition
 
 INSTALLED_APPS = [
