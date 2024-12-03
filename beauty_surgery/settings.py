@@ -39,6 +39,7 @@ ALLOWED_HOSTS = [
     "localhost",
     ".codeinstitute-ide.net",
     "herokuapp.com",
+    "4c2686118954.herokuapp.com",
 ]
 
 
