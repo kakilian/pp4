@@ -24,8 +24,6 @@ urlpatterns = [
     path("", index_views.index, name="index"),
     path("appointments/", index_views.index, name="index"),
     path("about/", about_views.about_me, name="about"),
-    path(
-        "admin/", admin.site.urls
-    ),  # Uncomment this line to enable the admin interface
+    path("admin/", admin.site.urls),
     # path("blog/", include("blog.urls")),  # Include the blog app URLs
 ]
