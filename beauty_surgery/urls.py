@@ -19,6 +19,7 @@ from django.contrib import admin
 from django.urls import include, path
 from beauty_surgery import views as index_views
 from about import views as about_views
+from appointments import views as appointments_views
 
 urlpatterns = [
     path("", index_views.index, name="index"),
