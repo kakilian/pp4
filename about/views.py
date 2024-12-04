@@ -4,5 +4,5 @@ from .models import Post
 
 
 class PostList(generic.ListView):
-    queryset = Post.obejects.all()
-    template_name = "about/post_list.html"
+    queryset = Post.objects.filter(author=1)
+    template_name = "about/templates/about/post_list.html"
